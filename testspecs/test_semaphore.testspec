@@ -1,0 +1,14 @@
+@program	/bionic-test/test_semaphore
+
+  - 'thread [1-3]: waiting for semaphore'
+  - 'thread [1-3]: got the semaphore ! sleeping for 2 seconds'
+  - 'thread [1-3]: sleeping for 1 second'
+  - 'thread [1-3]: sleeping for 3 seconds'
+  - 'thread [1-3]: awake !! waiting for semaphore'
+  - 'thread [1-3]: awake !! posting semaphore'
+  - 'thread [1-3]: quitting'
+  - 'thread [1-3]: got the semaphore ! sleeping for 2 seconds'
+  - 'thread [1-3]: awake !! waiting for semaphore'
+  - 'thread [1-3]: awake !! posting semaphore'
+  - 'thread [1-3]: quitting'
+  - 'thread [1-3]: got semaphore. quitting'

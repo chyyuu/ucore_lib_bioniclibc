@@ -1,0 +1,4 @@
+@program	/bionic-test/test_relocs
+
+	'func1() returns 1: OK'
+	'func2() returns 2: OK'

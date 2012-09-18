@@ -28,6 +28,8 @@ export
 
 $(TARGET) : $(SUBTARGET)
 	-mkdir -p $(ROOTFS)/$@
+	-mkdir -p $(ROOTFS)/system/lib
+	-mkdir -p $(ROOTFS)/system/bin
 	cp -r $(PREBUILT)/* $(ROOTFS)
 	cp -r $(OBJ_LIB_DIR)/* $(ROOTFS)/system/lib/
 	cp -r $(OBJ_BIN_DIR)/* $(ROOTFS)/$@

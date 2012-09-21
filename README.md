@@ -1,7 +1,7 @@
-ucore_lib_bioliclibc
+ucore_lib_bioniclibc
 ====================
 
-1. The biolic libc for ucore1. Test cases. To generate test cases binary, use:
+1. The bionic libc for ucore1. Test cases. To generate test cases binary, use:
 	make
 
 2. Prebuilt lib and linker are prepared in prebuilt directory.

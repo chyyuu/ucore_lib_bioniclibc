@@ -1,0 +1,4 @@
+@program	/bionic-test/test_cond
+
+	 'main: joining thread 2'
+	 'main: joining thread 1'

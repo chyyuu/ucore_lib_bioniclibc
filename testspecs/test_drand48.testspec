@@ -1,0 +1,4 @@
+@program	/bionic-test/test_drand48
+
+	 'srand48(101)'
+	 'drand48(): 0.679373472502 (ok)'

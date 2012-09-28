@@ -1,0 +1,7 @@
+@program	/bionic-test/test_seteuid
+
+-   'sizeof\\(uid_t\\) = .  sizeof\\(gid_t\\) = .'
+    'Start: ruid=0 euid=0'
+    'After set: ruid=0 euid=9999'
+    'After restore: ruid=0 euid=0'
+

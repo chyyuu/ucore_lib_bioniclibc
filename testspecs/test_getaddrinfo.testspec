@@ -1,3 +1,5 @@
-@program	 /bionic-test/test_getaddrinfo
-! 'first getaddrinfo returned error'
-! 'second getaddrinfo returned error'
+@program	/bionic-test/test_getaddrinfo
+  
+
+     !  'getaddrinfo returned error:'
+     !	'undefined syscall'

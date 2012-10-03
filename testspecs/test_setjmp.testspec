@@ -1,0 +1,5 @@
+@program        /bionic-test/test_setjmp
+
+  ! 'setjmp() is broken for integer registers !'
+  ! 'setjmp() is broken for floating point registers !'
+

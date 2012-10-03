@@ -1,0 +1,7 @@
+@program /bionic-test/test_clone
+    - 'child pid [0-9]+'
+    - 'waitpid returned [0-9]+'
+    - 'child [0-9]+, status 0x137f'
+
+
+

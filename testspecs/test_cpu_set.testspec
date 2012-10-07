@@ -1,0 +1,7 @@
+@program /bionic-test/test_cpu_set
+
+! - 'Assertion failure.*returned.*'
+! - 'Assertion failure.*TRUE.*'
+! - 'Assertion failure.*FALSE.*'
+
+

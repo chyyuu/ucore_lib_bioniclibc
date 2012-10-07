@@ -1,0 +1,3 @@
+@program	 /bionic-test/test_getaddrinfo
+! 'first getaddrinfo returned error'
+! 'second getaddrinfo returned error'

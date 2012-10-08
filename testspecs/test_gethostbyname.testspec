@@ -1,0 +1,4 @@
+@program /bionic-test/test_gethostbyname
+
+!	'returned NULL !!'
+	'  address: '

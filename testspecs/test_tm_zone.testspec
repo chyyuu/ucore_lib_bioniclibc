@@ -1,6 +1,6 @@
-@program	/bionic-test/test_tm_zone
-
-	'TZ is not defined'
-	'localtime_r() returns timezone abbreviation 'GMT''
-	'tzname[0] is 'GMT''
-	'tzname[1] is '   ''
+@program /bionic-test/test_tm_zone
+ !  'TM_ZONE is not defined in <time.h> !!' 
+  - 'TZ is not defined|TZ set to \'.*\''
+  - 'localtime_r\\(\\) returns timezone abbreviation \'.*\''
+  - 'tzname\\[0\\] is \'.*\''
+  - 'tzname\\[1\\] is \'.*\''

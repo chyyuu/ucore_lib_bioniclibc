@@ -1,3 +1,6 @@
-@program	/bionic-test/test_strptime
-
-	 'OK'
+@program /bionic-test/test_strptime
+ 
+ '11:14'
+ 'OK'
+ '09:41:53'
+ 'OK'

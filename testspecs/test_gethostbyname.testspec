@@ -1,4 +1,5 @@
 @program /bionic-test/test_gethostbyname
+@failin  arm
 
 !	'returned NULL !!'
 	'  address: '

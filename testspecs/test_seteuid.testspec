@@ -1,4 +1,5 @@
 @program	/bionic-test/test_seteuid
+@failin 	arm
 
 -   'sizeof\\(uid_t\\) = .  sizeof\\(gid_t\\) = .'
     'Start: ruid=0 euid=0'

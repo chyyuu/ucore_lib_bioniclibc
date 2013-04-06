@@ -1,0 +1,4 @@
+@program	/bionic-test/test_hello_world
+@failin 	arm
+
+	 'Hello World'

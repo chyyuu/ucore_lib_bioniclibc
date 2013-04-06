@@ -1,0 +1,5 @@
+@program	/bionic-test/test_getaddrinfo
+  
+
+     !  'getaddrinfo returned error:'
+     !	'undefined syscall'

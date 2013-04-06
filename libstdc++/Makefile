@@ -14,7 +14,6 @@ $(OBJ_OBJ_DIR) :
 	mkdir -p $(OBJ_OBJ_DIR)
 
 $(SINGLE_OBJ) :	$(addsuffix .c,$@)
-	@echo `pwd`
 	$(CXX) $(CXXFLAGS) -o $@ $(notdir $@).cpp  $(LDFLAGS)
 
 

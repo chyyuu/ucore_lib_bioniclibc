@@ -21,7 +21,7 @@ CXX		:=	$(CROSS_COMPILE)g++
 
 LDSCRIPT	:=	$(CURDIR)/bionic.ld
 CFLAGS	:=	
-LDFLAGS	:=	-T $(LDSCRIPT) -L$(OBJ_LIB_DIR)
+LDFLAGS	:=	-L$(OBJ_LIB_DIR)
 
 export
 
